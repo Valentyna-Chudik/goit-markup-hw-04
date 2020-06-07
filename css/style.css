@@ -588,6 +588,12 @@ body {
   color: var(--accent-color);
 }
 
+/* Social */
+
+.footer-social {
+  padding-right: 94px;
+}
+
 .social {
   display: block;
   margin-bottom: 21px;
@@ -632,6 +638,44 @@ body {
 .social-icon {
   width: 20px;
   height: 20px;
+}
+
+/* Subscription */
+
+.subscription {
+  display: block;
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.subscribe-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  padding: 10px 28px;
+
+  width: 200px;
+  height: 50px;
+
+  background-color: var(--accent-color);
+  color: #ffffff;
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.button-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
 }
 
 .copyright {
@@ -715,6 +759,11 @@ body {
 
 .portfolio-list .item:nth-last-child(-n + 3) {
   margin-bottom: 0px;
+}
+
+.portfolio-list .item:hover {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 .project-text {
